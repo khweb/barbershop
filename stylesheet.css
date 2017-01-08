@@ -1,0 +1,50 @@
+/*.home-overlay {
+    background-color: rgba(44, 62, 80, 0.3);
+    background-image: url('img/pattern.png');
+    background-repeat: repeat;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 0;
+}*/
+
+body {
+ background: url('img/stardust.png') repeat;
+ font-family: 'Ubuntu', sans-serif;
+ font-size:16px;
+ color: #fbfbfb;
+}
+a {
+    color: #fff;
+}
+.btn , button  {
+ background: #90505e;
+ color: #fff;
+ padding: 10px 20px;
+ border-radius: 4px;
+ text-decoration: none;
+ border: none;
+ font-size: 14px;
+}
+.btn:hover {
+background: #009688;
+}
+button.btn {
+ border: none;
+ font-size: 14px;
+ cursor: pointer;
+}
+input {
+    padding: 10px 5px;
+    border: 1px solid #39393a;
+    border-radius: 2px;
+    font-weight: 600;
+    box-shadow: inset -1px 1px 4px 0px #d6d6d6;
+    font-family: 'Ubuntu', sans-serif;
+}
+input[type="date"] {
+    padding: 8px 5px;
+    color: #a9a9a9;
+}
